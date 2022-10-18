@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+i,button {
+    cursor: pointer;
+}
+
+.header {
+    /* background: red; */
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-img {
+    height: 55px;
+    margin: 10px;
+}
+.left-btn {
+    border: none;
+    padding: 20px 10px 20px 10px;
+    background-color: white;
+}
+.left-btn:hover {
+    border: none;
+    background-color: #05aa6d;
+    color: white;
+    cursor: pointer;
+}
+.left-navbar {
+    display: flex;
+}
+.right-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+    width: 45%;
+    align-items: center;
+}
+.pro {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+.certified {
+    background-color: pink;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+.free {
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+.login {
+    color: white;
+    background-color: #05aa6d;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+.firstScreen {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282a35;
+}
+.heading {
+    font-size: 45px;
+    color: white;
+}
+.subheading {
+    margin: 20px;
+    font-size: 20px;
+    color: pink;
+}
+.search {
+    display: flex;
+    width: 427.36px;
+}
+.html {
+    display: flex;
+    width: 100%;
+    background-color: #d9eee1;
+    margin-top: -5px;
+    height: 70vh;
+}
+.css {
+    display: flex;
+    width: 100%;
+    background-color: #fff4a5;
+    height: 70vh;
+}
+.javascript {
+    display: flex;
+    width: 100%;
+    background-color: #282A35;
+    height: 70vh;
+    color: white;
+}
+.javascript .heading {
+    color: white;
+}
+.Js {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+}
+.python {
+    background-color: #F3ECEA;
+}
+.sql {
+    background-color: #96D4D4;
+}
+.courses {
+        /* display: flex; */
+        width: 100%;
+        background-color: #282A35;
+        height: 530vh;
+        text-align: center;
+}
+.row1 {
+    display: flex;
+    justify-content:center;
+    gap: 2rem;
+}
+.boxphp {
+    width: 38%;
+    background-color: #ffc0c7;
+    height: 30vh; 
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-radius: 5px;
+}
+.title {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.learn_btn {
+    width: 35%;
+    margin: 2rem;
+}
+.jquery {
+    background-color: #fff4a5;
+}
+.c {
+   background-color: #D9EEE1;
+}
+.java {
+    background-color: #F3ECEA;
+}
+.wcss {
+    background-color: #96D4D4;
+}
+.bootstrap {
+    background-color: #E7E9EB;
+}
+.c1 {
+    height: 13vh;
+    background-color: #ffc0c7;
+    padding-top: 1.8rem;
+}
+.c2 {
+    height: 13vh;
+    background-color: #fff4a5;
+    padding-top: 2rem;
+}
+.row2 {
+        display: flex;
+        justify-content:center;
+        gap: 3.9rem;
+}
+.small {
+    width: 16%;
+    background-color: #ffc0c7;
+    height: 9vh; 
+    margin-top: 4rem;
+    padding:.8rem 0rem;
+    border-radius: 5px;
+}
+.title1 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.editvideo {
+    display: flex;
+    justify-content: center;
+}
+.heading1 {
+    font-size: 4rem;
+    color: white;
+}
+.text {
+   text-align: center;
+   margin-top: 4rem;
+   margin-bottom: 3.5rem;
+   line-height: 4rem;
+   color: white;
+}
+.editbtn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    width: 23%;
+    margin-top: 2rem;
+    margin-left: 15rem;
+}
+.edit_button {
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+.green {
+    color: white;
+    background-color: #05aa6d;
+}
+.yellow {
+    background-color: #fff4a5;
+}
+.color {
+    width: 100%;
+    background-color: #F3ECEA;
+    height: 80vh;
+}
+.picker {
+    margin-top: 0;
+    color: black;
+    margin-bottom: 2rem;
+    font-family: 'Freckle Face', cursive;
+}
+.heading2 {
+    font-size: 3.5rem;
+    color: black;
+    padding-top: 50px;
+}
+.game {
+    background-color: #96D4D4;
+}
+.play {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.play1 {
+    width: 15%;
+    background-color: black;
+    font-weight: bold;
+}
+.exercise {
+    background-color: #232434;
+    height: 70vh;
+}
+.heading3 {
+    font-size: 3rem;
+    color: white;
+    padding-top: 50px;
+}
+.exer {
+    height: 16vh;
+    text-align: center;
+    background-color: #05aa6d;
+    color: white;
+    padding-top: 60px;
+    margin-top: .5rem;
+}
+.quiz {
+    height: 16vh;
+    text-align: center;
+    background-color: #fff4a5;
+    color: black;
+    padding-top: 60px;
+    margin-top: .5rem;
+}
+.temp {
+    background-color: #E7E9EB;
+    height: 100vh;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.left h2 {
+    font-size: 100px;
+    color: black;
+}
+.left h6 {
+    font-size: 20px;
+}
+.left button {
+    width: 200px;
+    margin: 10px;
+}
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right img {
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.591);
+}
+.search input {
+    width: 80%;
+    border-top-left-radius: 17.5px;
+    border-bottom-left-radius: 17.5px;
+    border: none;
+    height: 35px;
+    font-size: 15px;
+}
+.search input::placeholder {
+    padding-left: 20px;
+}
+.search .div {
+    color: white;
+    background-color: #05aa6d;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    border-top-right-radius: 17.5px;
+    border-bottom-right-radius: 17.5px;
+}
+.footer {
+    background: black;
+}
+/* .right {
+    padding-top: 20px;
+}
+.right_content {
+    margin-right: 20px;
+    padding-top: 20px;
+}
+.fa-solid {
+    color: black;
+}
+.fa-solid:hover {
+    color: green;
+}
+.right_btn {
+    border-radius: 25%;
+    padding-top: 0px;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none; */
+    /* line-height: 1.5; */
+/* }
+.btn {
+    color: white;
+    background-color: rgb(62, 60, 60);
+    width: 70px;
+}
+.btn1 {
+    background-color: rgb(251, 207, 215);
+}
+.btn2 {
+    background-color: rgb(240, 240, 165);
+    width: 150px;
+}
+.btn3 {
+    background-color: green;
+    color: white;
+    width: 100px;
+    
+}*/
