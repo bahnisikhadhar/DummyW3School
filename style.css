@@ -257,7 +257,7 @@ i,button {
 .heading1 {
     font-size: 4rem;
     color: white;
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 .text {
    text-align: center;
@@ -288,18 +288,15 @@ i,button {
     background-color: #fff4a5;
 }
 .editor {
-    height: 120vh;
+    height: 110vh;
+    margin-bottom: 0;
    background-color: #282A35;
+   padding-top: 90px;
    
 }
 .spaces {
-    height: 110vh;
-    background-color: #282A35;
-    opacity: 0.96;
+    background: #282A35 url("./image/w3Space.jpg") no-repeat fixed center;
 }
-/* #spaces1 {
-    
-} */
 .color {
     width: 100%;
     background-color: #F3ECEA;
@@ -309,7 +306,6 @@ i,button {
     margin-top: 0;
     color: black;
     margin-bottom: 2rem;
-    font-family: 'Freckle Face';
 }
 .heading2 {
     font-size: 3.5rem;
@@ -331,8 +327,8 @@ i,button {
     font-weight: bold;
 }
 .exercise {
-    background-color: #232434;
-    height: 70vh;
+   background: url("./image/w3codes.png") no-repeat fixed center/cover;
+    height: 80vh;
 }
 .heading3 {
     font-size: 3rem;
